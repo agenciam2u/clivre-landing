@@ -97,7 +97,7 @@
     <meta property="og:locale" content="pt_BR">
     <meta property="og:image" content="https://consultoriolivre.com.br/img/capa.jpeg">
     <meta property="fb:app_id" content="236333063888899" />
-    <link rel="stylesheet" href="/css/clivre.css" media="all">
+    <link rel="stylesheet" href="/css/clivre.min.css" media="all">
 </head>
 
 <body>
