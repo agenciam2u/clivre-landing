@@ -1,0 +1,9 @@
+﻿User-agent: *
+Disallow: /img/*
+Disallow: /css/*
+Disallow: /fonts/*
+Disallow: /enderecos/*
+Disallow: /index/busca-ajax
+Disallow: /agendas/buscar-dias
+Disallow: /agendas/busca-horarios
+Sitemap: https://www.consultoriolivre.com.br/sitemap.xml

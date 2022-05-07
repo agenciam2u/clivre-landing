@@ -1,0 +1,90 @@
+@import url(bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Imprima);
+body{
+    background-color:#f4f4f4;color:#465250;font-family:'Imprima', sans-serif;
+}
+.logo{
+    width: 150px;
+}
+.navbar-nav .nav-item {
+    position: relative;
+    margin-left: 40px;
+}
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #465250;
+}
+.navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 50%;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: #11584c;
+    opacity: 0;
+    transition: all .3 ease-out;
+}
+.navbar-nav .nav-item .nav-link.active::before,
+.navbar-nav .nav-item .nav-link:hover::before {
+        opacity: 1;
+}
+main{
+    margin-top: 30px;
+}
+.header-title {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+p.text{
+    margin: 0 0 10px;
+}
+p.text:last-of-type {
+    margin-bottom: 30px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.app-link {
+    margin: 0;
+    padding: 0;
+}
+.app-link li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.app-link li a img{
+    height: 50px;
+}
+.banner-image {
+    max-height: 500px;
+}
+#funcionalidades {
+    background: url(/img/bg_login.svg) top left repeat #2D4C51;
+    color: #fff;
+    margin: 0px;
+    padding: 55px 15px;
+
+}
+#funcionalidades h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.list-group, .list-group-item {
+    border: 0;
+    padding: 3px 0px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+.img-wzp{
+    max-width: 300px;
+}
+#faleconosco {
+    padding: 50px 0px;
+}
