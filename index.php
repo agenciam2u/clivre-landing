@@ -1,7 +1,7 @@
 <?php include('includes/header.php') ?>
         <section class="header-hero">
             <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
+                <div class="row align-items-center justify-content-lg-between" id="home-txt">
                     <div class="col-md-7">
                         <h1 class="header-title">Agora estamos<span> na sua mão</span></h1>
                         <p class="text">Com isso seus dados ficam mais seguros e protegidos, no seu smartphone.</p>
@@ -12,7 +12,7 @@
                             <li><a href="#"><img src="/img/appstore.png" alt="Apple Store"></a></li>
                         </ul>
                     </div>
-                    <div class="col-md-5 text-end">
+                    <div class="col-md-5 text-end" id="banner-img">
                         <img src="/img/smart-hand.png" alt="" class="banner-image">
                     </div>
                 </div>
@@ -56,7 +56,7 @@
         <section id="faleconosco">
             <div class="container">
                 <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-md-6 text-center d-sm-none d-md-block"> 
+                    <div class="col-md-6 text-center" id="fale-img"> 
                         <img src="/img/chat.png" alt="Imagem de chat" class="img-fluid">
                     </div>
                     <div class="col-md-6 text-center">

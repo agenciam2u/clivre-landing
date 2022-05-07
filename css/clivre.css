@@ -100,3 +100,24 @@ footer ul li a:hover{
     color: yellow;
     font-weight: bold;
 }
+@media (max-width:481px)  { 
+    #home-txt {
+        margin-bottom: 30px;
+    }
+    #banner-img,
+    #fale-img {
+        display: none;
+    }
+    .app-link {
+        text-align: center !important;
+    }
+    .app-link li {
+        margin: 0;
+        padding: 0;
+    }
+    .app-link li a img{
+        width: 315px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
