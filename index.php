@@ -57,7 +57,9 @@
             <div class="container">
                 <div class="row align-items-center justify-content-lg-between">
                     <div class="col-md-6 text-center" id="fale-img"> 
-                        <img src="/img/chat.png" alt="Imagem de chat" class="img-fluid">
+                        <a href="https://wa.me/+5521982662218?text=Por%20favor,%20preciso%20de%20um%20médico%20para...">
+                            <img src="/img/chat.png" alt="Imagem de chat" class="img-fluid">
+                        </a>
                     </div>
                     <div class="col-md-6 text-center">
                         <img src="/img/wzp.png" alt="Link WhatsApp" class="img-wzp">
