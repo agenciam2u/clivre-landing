@@ -120,4 +120,25 @@ footer ul li a:hover{
         height: auto;
         margin-bottom: 15px;
     }
+    .nav-area {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        background-color: #f4f4f4 !important;
+        border-bottom: 2px solid #11584c;
+        z-index: 9999;
+    }
+    main {
+        padding-top: 80px;
+    }
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar button {
+        display: none;
+    }
+    .navbar-collapse {
+        display: none;
+    }
 }
