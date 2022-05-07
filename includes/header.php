@@ -105,7 +105,7 @@
         <div class="nav-area">
             <nav class="navbar navbar-expand-md navbar-light bg-transparent" aria-label="Fourth navbar example">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="/img/logo.svg" alt="ConsultorioLivre" class="logo" />
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -116,7 +116,7 @@
                     <div class="collapse navbar-collapse" id="navbarsExample04">
                         <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                                <a class="nav-link active" aria-current="page" href="/">Principal</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Funcionalidades</a>
@@ -134,113 +134,3 @@
         </div>
     </header>
     <main>
-        <section class="header-hero">
-            <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-md-7">
-                        <h1 class="header-title">Agora estamos<span> na sua mão</span></h1>
-                        <p class="text">Com isso seus dados ficam mais seguros e protegidos, no seu smartphone.</p>
-                        <p class="text">Suas consultas, solicitações de exames e resultados: tudo num único app, da marcação da consulta até a avaliação do profissional que te atendeu.</p>
-                        <h2>Baixe agora</h2>
-                        <ul class="app-link">
-                            <li><a href="https://play.google.com/store/apps/details?id=com.clivre" target="_blank"><img src="/img/googleplay.png" alt="Google Play"></a></li>
-                            <li><a href="#"><img src="/img/appstore.png" alt="Apple Store"></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-5 text-end">
-                        <img src="/img/smart-hand.png" alt="" class="banner-image">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="funcionalidades">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <h2>Prontinho para você</h2>
-                        <ul class="list-group">
-                            <li class="list-group-item">Busca de profissionais</li>
-                            <li class="list-group-item">Marcação de consultas</li>
-                            <li class="list-group-item">Marcação de exames</li>
-                            <li class="list-group-item">Confirmação de consultas</li>
-                            <li class="list-group-item">Confirmação de exames</li>
-                            <li class="list-group-item">Cancelamento de consultas</li>
-                            <li class="list-group-item">Cancelamento de exames</li>
-                            <li class="list-group-item">Lembrete da sua agenda <strong>24h</strong> antes</li>
-                            <li class="list-group-item">Apresentação de receita</li>
-                            <li class="list-group-item">Download de receita</li>
-                            <li class="list-group-item">Download de pedidos de exames</li>
-                            <li class="list-group-item">Download de resultados de exames</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h2>Em breve</h2>
-                        <ul class="list-group">
-                            <li class="list-group-item">Pagamento direto no Aplicativo</li>
-                            <li class="list-group-item">Remarcação de consultas</li>
-                            <li class="list-group-item">Remarcação de exames</li>
-                            <li class="list-group-item">Solicitar medicamentos aos parceiros e receber em casa</li>
-                            <li class="list-group-item">Solicitar coleta de material em casa</li>
-                            <li class="list-group-item"><strong>Teleatendimento direto no aplicativo</strong></li>
-                            <li class="list-group-item">Todas as funcionalidades para seus dependentes</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="faleconosco">
-            <div class="container">
-                <div class="row align-items-center justify-content-lg-between">
-                    <div class="col-md-6 text-center d-sm-none d-md-block"> 
-                        <img src="/img/chat.png" alt="Imagem de chat" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <img src="/img/wzp.png" alt="Link WhatsApp" class="img-wzp">
-                        <h3 class="mt-5 mb-3">Peça um contato</h3>
-                        <form action="" method="post">
-                            <input type="text" name="nome" required placeholder="Seu nome" class="form-control mb-3">
-                            <input type="text" name="telefone" required placeholder="Se telefone COM DDD" class="form-control mb-3">
-                            <textarea name="" id="" cols="30" rows="10" class="form-control mb-4">Fale um pouco do que precisa, por exemplo: a especialidade e uma data pretendida.
-                            </textarea>
-                            <button type="submit" class="btn btn-warning"> Pedir contato </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>Sobre nós</h3>
-                    <ul>
-                        <li><a href="/termos">Termo de uso</a></li>
-                        <li><a href="/politica">Política de privacidade</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                    <h3>Redes sociais</h3>
-                    <ul>
-                        <li><a href="https://www.facebook.com/clivreoficial/" target="_blank">Estamos no Facebook</a></li>
-                        <li><a href="https://twitter.com/CLivreBrasil" target="_blank">E também no Twitter</a></li>
-                    </ul>
-                    <div id="fb-root"></div>
-                    <div class="fb-customerchat"
-                        attribution=setup_tool
-                        page_id="1897853713561119"
-                        theme_color="#44bec7"
-                        logged_in_greeting="Olá! Podemos ajudar com algo?"
-                        logged_out_greeting="Olá! Podemos ajudar com algo?">
-                    </div>                    
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="/js/clivre.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
