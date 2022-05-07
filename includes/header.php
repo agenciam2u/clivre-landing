@@ -99,7 +99,6 @@
     <meta property="fb:app_id" content="236333063888899" />
     <link rel="stylesheet" href="/css/clivre.min.css" media="all">
 </head>
-
 <body>
     <header class="header-area">
         <div class="nav-area">
